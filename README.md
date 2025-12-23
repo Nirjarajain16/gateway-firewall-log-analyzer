@@ -13,6 +13,25 @@ The project simulates real-world firewall log analysis tasks typically performed
 - Extract key security information such as timestamps, actions, and IP addresses
 - Identify blocked/denied traffic patterns
 - Generate readable summary reports for analysis and monitoring
+---
+
+## Project Structure
+
+- **logs/**  
+  Contains sample gateway firewall log files used for analysis.
+
+- **scripts/**  
+  Python scripts responsible for parsing firewall logs and extracting security-relevant information.
+
+- **output/**  
+  Generated reports containing analyzed data such as blocked IPs and traffic summaries.
+
+- **report/**  
+  Project documentation including methodology, analysis, and results.
+
+- **README.md**  
+  Project overview, setup instructions, and usage details.
+
 
 ---
 
