@@ -17,20 +17,16 @@ The project simulates real-world firewall log analysis tasks typically performed
 ---
 
 gateway-firewall-log-analyzer/
-│
 ├── logs/
 │   └── firewall.log
-│
 ├── scripts/
 │   └── analyze_logs.py
-│
 ├── output/
 │   └── firewall_report.csv
-│
 ├── report/
 │   └── Project_Report.pdf
-│
 └── README.md
+
 
 ## Technologies Used
 - Python 3
@@ -46,9 +42,6 @@ gateway-firewall-log-analyzer/
 3. Each log entry is validated to handle malformed or incomplete records.
 4. Relevant fields such as date, action, source IP, and destination IP are extracted.
 5. Parsed data is written into a structured CSV report for further analysis.
-
----
-
 
 ---
 
