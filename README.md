@@ -16,20 +16,19 @@ The project simulates real-world firewall log analysis tasks typically performed
 
 ---
 
-## Project Structure
 gateway-firewall-log-analyzer/
 │
 ├── logs/
-│ └── firewall.log
+│   └── firewall.log
 │
 ├── scripts/
-│ └── analyze_logs.py
+│   └── analyze_logs.py
 │
 ├── output/
-│ └── firewall_report.csv
+│   └── firewall_report.csv
 │
 ├── report/
-│ └── Project_Report.pdf
+│   └── Project_Report.pdf
 │
 └── README.md
 
