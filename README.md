@@ -16,18 +16,6 @@ The project simulates real-world firewall log analysis tasks typically performed
 
 ---
 
-gateway-firewall-log-analyzer/
-├── logs/
-│   └── firewall.log
-├── scripts/
-│   └── analyze_logs.py
-├── output/
-│   └── firewall_report.csv
-├── report/
-│   └── Project_Report.pdf
-└── README.md
-
-
 ## Technologies Used
 - Python 3
 - Linux (Kali Linux / Ubuntu)
